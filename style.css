@@ -21,6 +21,9 @@ body{
 .Nav_items1{
     color: #8c8c8c;
 }
+..ham{
+    display: none;
+}
 .reg_btn{
     color: #33adf5;
     border-radius: 16px;
@@ -47,6 +50,7 @@ body{
     top: -550px;
     left: 30px;
 }
+
 .choose{
     font-size: 18px;
     border-radius: 8px;
@@ -348,6 +352,13 @@ left: 700px;
     }
     .Menu_list,.last_para{
         display: none;
+    }
+    .ham{
+        color: #000;
+        font-size: 40px;
+        cursor: pointer;
+        left: -360px;
+        top:30px;
     }
     }
   
