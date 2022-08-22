@@ -147,6 +147,8 @@ left: 700px;
     border-radius: 8px;
     top: -40px;
     left: 40px;
+    cursor: pointer;
+
 }
 .ch,.ch2{
     color: #079ef3;
@@ -159,6 +161,7 @@ left: 700px;
     background-color: #079ef3;
     border-color: #ffff;
     font-weight: 600;
+    
 }
 .features1{
     top:20px
@@ -185,6 +188,7 @@ left: 700px;
 .details{
     background-color: #fff;
     top:-22px;
+    
 }
 .sub1{
     color:#4c515f;
@@ -296,3 +300,55 @@ left: 700px;
     left: 75px;
     top: -30px;
 }
+
+
+@media  (max-width: 780px) {
+    .Nav{
+        left:350px;
+        top: -90px;
+    }
+    .Nav_items,.Nav_items1{
+        display: none;
+    }
+    *{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .main_header1,.main_header2{
+        font-size: 60px;
+    }
+    .main_para1,.main_para2{
+        display: none;
+    }
+    .Cloud_1_para{
+        display: none;
+    }
+    .features1{
+        display: none;
+    }
+    .customer_review{
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .customer_review:hover{
+        text-decoration: underline;
+    }
+    .pos3{
+        display: none;
+    }
+    .profile,.comment{
+        display: none;
+    }
+    .first{
+        box-shadow: none;
+    }
+    .reg{
+        font-size: 40px;
+        top: -70px;
+    }
+    .Menu_list,.last_para{
+        display: none;
+    }
+    }
+  
+  
